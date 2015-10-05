@@ -7,7 +7,7 @@ echo "-> Create taiga DB"
 createdb taiga
 
 echo "-> Load migrations"
-python manage.py migrate
+python manage.py migrate --fake-initial
 echo "-> Load initial user (admin/123123)"
 python manage.py loaddata initial_user --traceback
 echo "-> Load initial project_templates (scrum/kanban)"

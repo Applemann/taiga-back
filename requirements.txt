@@ -11,8 +11,8 @@ amqp==1.4.6
 djmail==0.11
 django-pgjson==0.2.2
 djorm-pgarray==1.0.4
-django-jinja==1.0.4
-jinja2==2.7.2
+django-jinja==1.4.1
+jinja2==2.8
 pygments==1.6
 django-sites==0.8
 Markdown==2.4.1
@@ -32,6 +32,3 @@ django-transactional-cleanup==0.1.15
 lxml==3.4.1
 git+https://github.com/Xof/django-pglocks.git@dbb8d7375066859f897604132bd437832d2014ea
 pyjwkest==1.0.3
-
-# Comment it if you are using python >= 3.4
-enum34==1.0
