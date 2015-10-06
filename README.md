@@ -7,6 +7,11 @@
 
 ## Setup development environment ##
 
+On Ubuntu/Debian run:
+```
+sudo apt-get install libpq-dev libxml2 libxslt1-dev
+```
+
 Just execute these commands in your virtualenv(wrapper):
 
 ```
